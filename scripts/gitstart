@@ -16,7 +16,7 @@ if [ -f scripts/gitstart_extra ] ; then
     
 fi
 
-chromium-browser https://github.com/philwil/georgina
+chromium-browser https://github.com/philwil/georgina&
 
 cat ~/work/georgina/notes/README_today
 
