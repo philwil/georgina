@@ -1,0 +1,20 @@
+#!/bin/sh
+#script to start stuff
+cd ~/work/braidyn
+
+git pull
+date  >> notes/HELLO_phil
+git add notes/*
+git add MyCode/*
+git commit -m " update notes"
+git push
+
+echo 'use "cd ~/work/braidyn" to get to your work space'
+
+if [ -f scripts/gitstart_extra ] ; then
+    . scripts/gitstart_extra
+    
+fi
+
+cat ~/work/braidyn/notes/README_today
+
