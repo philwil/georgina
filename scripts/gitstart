@@ -1,6 +1,6 @@
 #!/bin/sh
 #script to start stuff
-cd ~/work/braidyn
+cd ~/work/georgina
 
 git pull
 date  >> notes/HELLO_phil
@@ -9,12 +9,12 @@ git add MyCode/*
 git commit -m " update notes"
 git push
 
-echo 'use "cd ~/work/braidyn" to get to your work space'
+echo 'use "cd ~/work/georgina" to get to your work space'
 
 if [ -f scripts/gitstart_extra ] ; then
     . scripts/gitstart_extra
     
 fi
 
-cat ~/work/braidyn/notes/README_today
+cat ~/work/georgina/notes/README_today
 

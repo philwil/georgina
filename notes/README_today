@@ -1,19 +1,20 @@
 
 Type anything above here and press ctl-X
 
-Hey Braidyn.
+Hey Georgina.
 
-Here is the latest project 
-/home/pi/work/braidyn/MyCode/DigitalInputPullup
+Simple instructions
 
-You asked about threads in scratch
-They allow you to do more than one thing at once
-Look here:
-https://scratch.mit.edu/projects/12199027/
+cd /home/pi/work/georgina
+git add *
+git commit -m " stuff"
+git push
 
-And here is a rough idea on how to get things to talk to each other
-http://www.informit.com/articles/article.aspx?p=2228799&seqNum=3
-Thanks for a fun weekend
+
+Welcome to the pi world
+
+Thanks for a fun visit
+
 
 
 
