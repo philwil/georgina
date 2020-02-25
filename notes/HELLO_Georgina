@@ -1,0 +1,19 @@
+HI Braidyn
+Welcome to your second computer
+This one is a workstation for all your other projects
+You can write notes to me here if you want.
+
+then use these commands
+
+cd ~/work/braidyn
+git add notes/*
+git commit -m " update notes"
+git push
+
+Well I have made it a bit simpler
+just type
+gitstart
+
+from anywhere
+
+
